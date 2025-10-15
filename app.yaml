@@ -25,6 +25,8 @@ metadata:
   name: meu-servico
   namespace: servico-fantasma
 spec:
+  selector:
+    app: minha-app
   ports:
     - protocol: TCP
       port: 80
